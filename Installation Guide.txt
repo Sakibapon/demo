@@ -1,0 +1,15 @@
+- npm install
+    Likely to thorrow some errors. 
+    if error network This is a problem related to network connectivity
+        - npm config set registry http://registry.npmjs.org/
+        - npm install -force
+        if not 
+            - npm install -d
+
+- npm run build
+
+Erros 
+    - TypeError: _chalk.default.constructor is not a constructor
+        - https://stackoverflow.com/questions/68615122/chalk-default-constructor-is-not-a-constructor-in-next-js
+        - Delete Node Modules
+        - Rebuild npm
